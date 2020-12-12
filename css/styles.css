@@ -135,7 +135,6 @@ nav .logo span {
 
 /* Studio main */
 .hero {
-  height: 600px;
   background-color: var(--secondary-bg-color);
   color: #ffffff;
   font-style: normal;
@@ -143,12 +142,16 @@ nav .logo span {
   letter-spacing: 0.06em;
 }
 
-.hero-title {
+.hero-section {
   padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.364;
   text-transform: uppercase;
 }
 
