@@ -35,7 +35,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* 
 .full-container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -47,8 +47,8 @@ ul {
 
 .footer-container {
   padding-top: 60px;
-  padding-bottom: 60px;
-}
+  padding-bottom: 60px; */
+/* } */
 
 /* Header */
 
@@ -134,17 +134,14 @@ nav .logo span {
 }
 
 /* Studio main */
-.hero {
+.hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--secondary-bg-color);
   color: #ffffff;
   font-style: normal;
   text-align: center;
   letter-spacing: 0.06em;
-}
-
-.hero-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -170,6 +167,11 @@ nav .logo span {
 
 /* Section-2 */
 
+.advantages-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantages-list {
   display: flex;
 }
@@ -182,7 +184,7 @@ nav .logo span {
   margin-right: 30px;
 }
 
-.advantages h3 {
+.advantages-list h3 {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -191,7 +193,7 @@ nav .logo span {
   text-transform: uppercase;
 }
 
-.advantages p {
+.advantages-list p {
   height: 75px;
   font-weight: 400;
   font-size: 14px;
@@ -200,6 +202,10 @@ nav .logo span {
 }
 
 /* Section-3 */
+.illustrations-section {
+  padding-bottom: 94px;
+}
+
 .illustrations-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -218,7 +224,9 @@ nav .logo span {
 }
 
 /* Section-4 */
-.team {
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--tertiary-bg-color);
 }
 
@@ -269,6 +277,8 @@ nav .logo span {
 /* Footer */
 
 .footer-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--secondary-bg-color);
   color: #ffffff;
 }
@@ -300,9 +310,6 @@ nav .logo span {
   margin-bottom: 9px;
 }
 
-.footer-contacts > .item {
-}
-
 .footer-contact {
   display: block;
   height: 21px;
@@ -315,7 +322,9 @@ nav .logo span {
 }
 
 /* Portfolio.html */
-.projects {
+.projects-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   border-top: 1px solid var(--border-color);
 }
 
